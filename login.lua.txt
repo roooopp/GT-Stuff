@@ -1,0 +1,46 @@
+local accounts = [[
+freelleinaowinaan@gmail.com|f5:10:cb:f2:e1:56:1818E7D93A1BD328FAA611D913DEDBE9:CCFA6BD9ACBE6AF00F9092D6965D3C12:1144856366:n8gdE8DF+RF0bKKelzZ9XwoTX4J3m8DtoLUL+qdktMqyrRF/30i9qh93yd67VJ6s8LZLiONxqMd8UtQGFlv7sRzQAYvP4I7nxreTQWrqwrS1QcR2kyydHzFtJ6K6JlDy+6Jh4u34uYaWkCnoTcdIyT4QnkdYEHw5z5QQUZyfT2rlpoKwdAF/1C9kglxIHfkTwa5K2KujFQra2OcP6sbhEkoWuQkbyVPbMAN8Y7BuWpeX/2qhJyPN7TE8nb0WsmZqPJuGQEXD9JgjI7H7NSg3FnYikqtBQziTpmtZdWbVVUf1st7AjXZQfba5GcOHGg5KicCb1zesmWN9+nQ3L+POiG2DFf7RZbzIG87w9syAE7otzkLFe/ERufAj9gjtoaKRuQW2Dnu78/3KUNYN7ZMHQZcQLbWoUB35szZyqQ1tRQ7WG/wC8uRCNuXyXdEyCq39q7NTEjdZxhq19xbnY3j7mw==|2
+natessaxeiezton@gmail.com|6d:7e:6a:1b:43:6d:B005C20FE676FACA95A55919B2287EA2:BF1DB3ED396668873A553D2667D857EE:483850964:n8gdE8DF+RF0bKKelzZ9X708n6hdmCTSmcqddcrLkxJrDIwzNM80kNi6oE8J0CRNdT2Zqswrw2jPgeBRLK024pM/r6nh3TeZjXAZNjjWtdB3fOZJo0T/vd4DAFiIdkCxsxwzm6pr4TCbHmQZSWWEwGvIop6dgFamVb8FB+OnyzYm00tFRa+mOiZnk5I0R6CbX/8lS5cyv9/1vslkZFraw3Nz8nugjGHQlju2NwaIVLfmCEclxUml1HTpv8RtuxZljBWzAiolwTvu7lqf0sk8c+b0sitoPCNxSLV3DLyHpEHsZ9HWI61UyXxTaYqmwLR3c8QZDpMVdgUQPeQc5pm6Tnd1D0NVVrcALudzokuOotjE0l0oqI5fDZPuH4O8pei8zyRu3xCUNPO515ppDTPk/FLISBQzrMW9FcOolxN2fFaqyiaQu0MHugVyGphro56PjJHGI2OXxQcW1xodS/0Jdw==|2
+kriuithlarellege@gmail.com|9a:4a:9d:bf:59:3a:DD9F9E3FC922FDD2BF15C73C5125CB35:A6A9BFE5B3F2677F536AA1873544ED00:434365422:n8gdE8DF+RF0bKKelzZ9XwPolXZ3AVS5mB1hB8JCVesjy6+koLtdPLU93Yq4Jyf4Ou1+aq4PYmtyGahN37KtmHrRDOpC0et95htDKR4vKM+Wr87LcromjceCHKTMx1Zwq27/Yyf1MeSoegK7R2mu2eJ4H7zDTlPIuWlbwuMMxSRLJeUPRPYZxJ7IfiS8r9VgmYRLeEnJUwTGEvGtK3sjtayUStYK5rix/wFw/VSRNf3I4fGrVxJc5+WRA+18qqrBqrIK9oMb7D7CVklwQo0KYbY1LpmsRj9Qdyg2EThXArsdNdTEkcF56VzwJjpz2zRcLqT4rPBhsauGRXzp7I7PipSVeh53sS91smJ/+ZBn27TqNZRW01DYKQH9ttPhYUHN1Pg/rZtZSbCRb087BMMEdktAT79XeA9EC8AVXREiyXUc8NMO+BKTiERLGQZyqs/MSCc0hfmkZzOkA25SL61vUw==|2
+osarifordamloiuz@gmail.com|92:8a:2f:3f:be:c5:4B451E0C9C86B115F64AF173F0AA2315:1A47F1D8B786AF72EFB9EFD319567E2F:2051330259:n8gdE8DF+RF0bKKelzZ9Xx54n+aidGv1n6dHX1njvc2nLpWL34fMQWL16soQQUxJml4sawB/wH0v6xt1wfTRPY407LRIBCZpxER5ZDLPiG3eObDIZ9Dspuiim3htlfFFS2Ck8oifBU/qfjNkVoxyzW9ZW8N3it4yO9zxgJkQ7oIX+maMNm7InPVG+VTTZjfjKfD+GzzHJLN80bjyFdOWaYTz6SVGomchqCWhKr+muVxk5L9xCvsavayL93worw28z/Lgkq9rE+kcMM2nE3j6+fRYGAwZaJGwguJgUsJhrpVhjdv9uk3hxb5UUiXNMMQBT84YgzNTPU/yc3lJYkSEvrDr2EpxZJwBlgLpOWT9VfeY4O5vibJpzXY3f+I9Brw45weW0NFR0eLN+unUszO9fgZ3XEX4yxgb8qSMe6Mt8ugA3/hAPtPRcaUy5CyrW6brQL4BVyjwK3wXx/fwjH+iIw==|2
+
+]]
+
+local BYPASSLOGON = true
+local TOKENPATTERN = "([%w%.%+%-]+@[%w%.%-]+)|(%x%x:%x%x:%x%x:%x%x:%x%x:%x%x):([^:|]+):([^:|]+):([^:|]+):([^|]+)|(%d+)"
+local loaded, invalid = 0, 0
+
+for raw in accounts:gmatch("[^\r\n]+") do
+    local line = (raw:gsub("^%s+", ""):gsub("%s+$", ""))
+
+    if line:find("@", 1, true) then
+        local email, mac, rid, wk, hash, ltoken, platform = line:match(TOKENPATTERN)
+
+        if email then
+            local bot = addBot({
+                ["display"]  = email,
+                ["secret"]   = email,
+                ["name"]     = ltoken,
+                ["mac"]      = mac,
+                ["rid"]      = rid,
+                ["wk"]       = wk,
+                ["hash"]     = hash,
+                ["platform"] = tonumber(platform),
+            })
+
+            bot:getConsole().enabled = true
+            bot.bypass_logon = BYPASSLOGON
+            loaded = loaded + 1
+            sleep(100)
+        else
+            invalid = invalid + 1
+            print("invalid format: " .. line)
+        end
+    end
+end
+
+if loaded == 0 then
+    print("No tokens loaded. Paste your tokens between [[ and ]], one per line.")
+else
+    print("Loaded " .. loaded .. " bot(s)" .. (invalid > 0 and (", " .. invalid .. " invalid line(s) skipped") or ""))
+end
